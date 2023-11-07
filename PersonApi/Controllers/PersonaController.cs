@@ -18,7 +18,7 @@ namespace PersonApi.Controllers
         public PersonaController(IConfiguration config)
         {
 
-            StringConector = config.GetConnectionString("OracleConnection");
+            StringConector = config.GetConnectionString("OracleConnection"); 
         }
 
 
